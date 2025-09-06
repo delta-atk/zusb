@@ -1,4 +1,4 @@
-const c = @import("c.zig");
+const c = @import("c.zig").libusb;
 
 pub const Error = error{
     Io,

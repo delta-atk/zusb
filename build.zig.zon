@@ -1,7 +1,8 @@
 .{
-    .name = "zusb",
+    .name = .zusb,
     .version = "0.0.1",
-    .minimum_zig_version = "0.14.0",
+    .minimum_zig_version = "0.15.1",
+    .fingerprint = 0xd0521f1e923f5c5a,
     .dependencies = .{},
     .paths = .{
         "build.zig",

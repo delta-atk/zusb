@@ -1,4 +1,4 @@
-const c = @import("c.zig");
+const c = @import("c.zig").libusb;
 const std = @import("std");
 const Interface = @import("interface_descriptor.zig").Interface;
 

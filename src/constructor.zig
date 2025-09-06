@@ -1,4 +1,4 @@
-const c = @import("c.zig");
+const c = @import("c.zig").libusb;
 const std = @import("std");
 const Device = @import("device.zig").Device;
 const DeviceHandle = @import("device_handle.zig").DeviceHandle;

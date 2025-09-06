@@ -1,4 +1,4 @@
-const c = @import("c.zig");
+const c = @import("c.zig").libusb;
 const err = @import("error.zig");
 
 pub fn disableDeviceDiscovery() err.Error!void {

@@ -1,4 +1,4 @@
-const c = @import("c.zig");
+const c = @import("c.zig").libusb;
 const EndpointDescriptor = @import("endpoint_descriptor.zig").EndpointDescriptor;
 
 pub const Interface = struct {
